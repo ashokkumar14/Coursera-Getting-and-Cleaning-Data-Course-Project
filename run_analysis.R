@@ -1,14 +1,14 @@
 # Create "Project" directory
-#if(!file.exists("project")){dir.create("project")}
+if(!file.exists("project")){dir.create("project")}
 
 setwd("./project")
 
 # Download File
-#fileURL <- "https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip"
-#download.file(fileURL, destfile = "getdata_project_Dataset.zip")
+fileURL <- "https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip"
+download.file(fileURL, destfile = "getdata_project_Dataset.zip")
 
 # Unzip Downloaded File
-#unzip("getdata_project_Dataset.zip")
+unzip("getdata_project_Dataset.zip")
 
 # load activity labels from files
 activity_labels <- read.table("UCI HAR Dataset/activity_labels.txt")
