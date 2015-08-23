@@ -1,7 +1,7 @@
 # Coursera-Getting-and-Cleaning-Data-Course-Project
 Peer Assessment Project - Getting and Cleaning Data Course Project
 
-The R script, run_analysis.R, does the following:
+Script run_analysis.R executes the following:
 
 1. Check working directory and create if it does not exist
 2. Download the dataset 
