@@ -11,4 +11,5 @@ The R script, run_analysis.R, does the following:
 5. Merge training and test datasets
 6. Convert activity and subject columns into factors
 7. Create tidy dataset that consists of the average (mean) value of each variable for each subject and activity pair.
+
 The end result is written to file tidy.txt.
