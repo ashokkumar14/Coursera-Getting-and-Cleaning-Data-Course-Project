@@ -12,4 +12,4 @@ Script run_analysis.R executes the following:
 6. Convert activity and subject columns into factors
 7. Create tidy dataset that consists of the average (mean) value of each variable for each subject and activity pair.
 
-The end result is written to file tidy.txt.
+Result is written to file tidy.txt.
