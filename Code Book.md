@@ -4,14 +4,16 @@ This code book explains dataset(tidy.txt) created by run_analysis.R
 
 ## Attributes/Identifiers
 subject - Measurements belong to this subject
+
 activity - Actvity performed by subject when measurements were taken
-			Values for activities in tidy.txt
-				* WALKING
-				* WALKING_UPSTAIRS
-				* WALKING_DOWNSTAIRS
-				* SITTING
-				* STANDING
-				* LAYING
+
+	Values for activities in tidy.txt
+		* WALKING
+		* WALKING_UPSTAIRS
+		* WALKING_DOWNSTAIRS
+		* SITTING
+		* STANDING
+		* LAYING
 
 
 
